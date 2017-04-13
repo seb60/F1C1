@@ -81,7 +81,7 @@ header .mobile {
   display: none;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 450px) {
   header .desktop {
     display: none;
   }
@@ -93,6 +93,7 @@ header .mobile {
 
   header .content {
     padding: .5rem 0;
+    height: 3rem;
   }
 
   header .mobile ul {
@@ -234,7 +235,7 @@ header .mobile {
   padding: 2rem 2rem 2.3125rem 2rem;
   margin: 0px 1.25rem;
   background-color: white;
-  height: 35.375rem;
+  height: auto;
 }
 
 .feature .image-container {
@@ -284,7 +285,14 @@ header .mobile {
 
   .feature {
     margin: 0;
-    padding: 1.25rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .feature .content {
+    margin: 0;
+    padding: 1.875rem 0;
   }
 }
 
@@ -394,6 +402,24 @@ header .mobile {
   }
 }
 
+@media only screen and (max-width: 450px) {
+  #quotes-section .content {
+    padding: 1.875rem .625rem;
+  }
+
+  #quotes-section .quote {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  #quotes-section .quote-citation {
+    display: block;
+    padding-top: 1rem;
+    margin: auto;
+  }
+}
+
 /* Footer */
 
 footer {
@@ -417,7 +443,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 420px) {
   footer .content {
     font-size: .625rem;
   }
