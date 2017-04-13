@@ -292,7 +292,7 @@ header .mobile {
 
 #filters-section {
   padding: 4rem 0;
-  background-color: #4a4a4a;
+  background-color: #4a4a4a; 
 }
 
 #filters-section .content {
@@ -304,6 +304,8 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  opacity: 100%;
+  font-family: "roboto";
 }
 
 #filters-section .content h3 {
@@ -316,6 +318,7 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
 }
 
 @media only screen and (max-width: 760px) {
