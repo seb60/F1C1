@@ -26,6 +26,7 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -230,9 +231,10 @@ header .mobile {
 
 .feature {
   flex: 1;
-  padding: 2rem;
+  padding: 2rem 2rem 2.3125rem 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+  height: 35.375rem;
 }
 
 .feature .image-container {
@@ -241,9 +243,15 @@ header .mobile {
   margin: 0 auto;
 }
 
+.feature .content {
+  padding: 2.5rem;
+  line-height: 1.2;
+}
+
 .feature h2 {
   padding-bottom: .5rem;
   font-size: 2.25rem;
+  font-family: "Roboto";
   font-weight: bold;
   color: #4a4a4a;
 }
